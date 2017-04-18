@@ -1,0 +1,62 @@
+body {
+    padding : 0;
+    margin: 0;
+    background-color: rgb(250,250,250)
+}
+
+#left {
+    float : left;
+}
+
+#left img {
+    width: 240px;
+    height: 431px;
+    padding-top: 45px;
+}
+
+#right {
+    float : right;
+}
+
+#bt {
+    color: blue;
+    text-decoration: none;
+}
+
+.node {
+    background-color: rgb(255,255,255);
+    border: 1px solid lightgray;
+    padding: 50px;
+    text-align: center;
+}
+
+.node2 {
+    display: none;
+}
+
+.node3{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.node3 p {
+    display: inline;
+}
+
+#box {
+    padding-top: 80px;
+    width: 570px;
+    height: 621px;
+    margin: auto;
+}
+
+.message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#exist {
+    color: red;
+    display: inline-block;
+    position: absolute;
+}
