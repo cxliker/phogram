@@ -4,7 +4,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <!--<link rel="shortcut icon" href="favicon.ico" />-->
         <link href="../css/user.css" rel="stylesheet" type="text/css">
-        <script src="../js/jquery-3.2.0.js"></script>
+        <link href="../css/dropzone.min.css" rel="stylesheet" type="text/css">
+        <script src="../js/jquery-3.2.0.min.js"></script>
+        <script src="../js/dropzone.js"></script>
         <script src="../js/user.js"></script>
     </head>
     <body>
@@ -40,6 +42,21 @@
                 <div>
                     <h2>#name</h2>
                     <span>what you want to say</span>
+                </div>
+            </div>
+        </div>
+        <div id="full-screen">
+            <div class="content manager">
+                <ul>
+                    <li><button id="post">发照片</button></li>
+                    <li><button id="logout">退出</button></li>
+                    <li><button id="cancle">取消</button></li>
+                </ul>
+            </div>
+            <div class="content post-box">
+                <div id="mydropzone">
+                    <form action="./upload_img.php" class="dropzone" id="my-awesome-dropzone">
+                    </form>
                 </div>
             </div>
         </div>
